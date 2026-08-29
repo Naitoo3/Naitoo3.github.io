@@ -1,2 +1,2 @@
 # Naitoo3.io
-portfolio website
+portfolio website, used to showcase my amazing work :)
