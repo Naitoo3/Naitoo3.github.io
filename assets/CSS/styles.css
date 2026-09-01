@@ -67,8 +67,27 @@ a {
     transform: scale(0.9);
 }
 
-/* TODO: add better images later */
+/* Adjusts the brand images and their size */
 .brand-img {
     width: 15%;
     height: 100%;
+}
+
+
+/* Adjustements to mobile devices */
+
+@media (max-width: 768px) {
+    .brand-img {
+        width: 40%;
+    }
+}
+@media (max-width: 1024px) {
+    .brand-img {
+        width: 30%;
+    }
+}
+@media (max-width: 1366px) {
+    .brand-img {
+        width: 30%;
+    }
 }
