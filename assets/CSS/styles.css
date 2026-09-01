@@ -33,17 +33,19 @@ a {
     font-weight: 800;
     font-size: larger;
 }
+
 /* Mise en page de la présentation */
 
 #accueil, p, h1 {
-    font-size: 40px;
+    font-size: 30px;   
 }
 
 /* Personalisation des styles pour les boutons */
 .button-learn {
     position: relative;
-  display: inline-block;
+  display: flex;
   margin: 15px;
+  align-items: center;
   padding: 15px 30px;
   text-align: center;
   font-size: 18px;
@@ -63,4 +65,10 @@ a {
 }
 .button-learn:active {
     transform: scale(0.9);
+}
+
+/* TODO: add better images later */
+.brand-img {
+    width: 15%;
+    height: 100%;
 }
